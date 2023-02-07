@@ -12,15 +12,48 @@ As part of my role in TecEx's Cloud team, I developed this Attachment Tool.
 
 The attachment tool is a desktop application, which allows a user to upload or download files to the CRM system - Salesforce. In Salesforce, multilpe object types exist which could have files attached to them. Each object can have multiple instances, called records. The Attachment Tool enables a user to transfer large amounts of files between their PC and Salesforce - a process that is extreamly time consuming when carried out manually or file by file. 
 
-![alt text](https://github.com/AButton90/Attachment_Tool/blob/main/Att_Tool_Flow.png)
+<p align="center">
+  <img width="739" height="354" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Flow.png">
+</p>
 
 Excel files are used by the user to specify the details of the file transfer. To download files, the user only specifies the record IDs which attachements they require.  For an upload of files, the user specifies the record ID and the file name they want to upload. Once the user has captured the information, the tool is launched from their desktop.
 
-** Excel screeshot
+<p align="center">
+  <img width="550" height="270" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Config.png">
+</p>
+
 
 ### Application
 
-The following diagram indicates 
+Launching the app will propmt the user for their login details - if it is the user's first time using the app, it will additionally ask for a password and security token. Making use of the Keyring library the user's credentials are saved in their Windows Credential Manager, allowing them use of the tool without supplying credentials upon each launch.
+
+<p align="center">
+  <img width="557" height="150" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Login.png">
+</p>
+
+Once the user's is connected to Salesforce throught the app, they will be prompted to pick a process they want to follow: Upload files or Download files. The user also needs to supply the path the the config file.
+
+<p align="center">
+  <img width="678" height="386" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Process.png">
+</p>
+
+### Download
+
+  If downloading files from the CRM system, the tool will display the record IDs provided in the config file as well as the record type - this allows the user to confirm that the correct IDs were supplied.  The user also needs to specify the path where they want to download the files to.
+
+<p align="center">
+  <img width="706" height="371" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Download.png">
+</p>
+
+### Upload
+
+  Similar to the download process, when uploading the user will be able to review the info provided in the config file as well as specify the path on their PC where the files are stored
+
+<p align="center">
+  <img width="784" height="334" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Upload.png">
+</p>
+
+
 
 
 ### Reporting

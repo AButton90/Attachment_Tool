@@ -6,7 +6,7 @@ TecEx is a company that provides customs compliance solutions through turnkey Im
 
 TecEx is committed to delivering exceptional client service and have a strong focus on scalability of their technology. To achieve this, the company's Cloud team, creates innovative applications that automate processes, streamlines workflows, and eliminates manual errors. The aim is to ensure that the company can efficiently handle increasing demands from clients while maintaining a high level of service quality.
 
-As part of my role in TecEx's Cloud team, I developed this Attachment Tool.
+As part of my role in TecEx's Cloud team, I developed this Attachment Tool.  This app is used by various teams throughout the company.
 
 ## Application Overview
 
@@ -54,13 +54,19 @@ Once the user's is connected to Salesforce throught the app, they will be prompt
 </p>
 
 
+While the up- or download is running, the user is able to view the progress of the process. Next to each document's ID the status of the download will be indicated, if a failure occurs, the error message will give more info on the failure.  The tool is also setup to compare all files attached to the record and if the content of two documents are identical, only one file will be downloaded.
 
+<p align="center">
+  <img width="546" height="479" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Processing.png">
+</p>
 
 ### Reporting
 
+Once done, the app will email a report with the up-/download results to the user.  The report contains information on each record and all its attachments, including file names, saved names, status, size, created date and any errors that occured in the process 
 
-
-
+<p align="center">
+  <img width="1248" height="209" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Report.png">
+</p>
 
 
 ## Python Libraries

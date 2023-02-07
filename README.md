@@ -63,4 +63,21 @@ Once the user's is connected to Salesforce throught the app, they will be prompt
 
 
 
-## 
+## Python Libraries
+
+The follwing Python libraries were used in the Attachment Tool desktop app:
+
+- keyring
+- PySimpleGUI
+- simple_salesforce
+- openpyxl
+- requests
+- base64
+- json
+- os
+- hashlib
+- re
+- threading
+- queue
+- smtplib
+- email

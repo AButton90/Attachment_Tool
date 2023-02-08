@@ -65,7 +65,7 @@ While the up- or download is running, the user is able to view the progress of t
 Once done, the app will email a report with the up-/download results to the user.  The report contains information on each record and all its attachments, including file names, saved names, status, size, created date and any errors that occured in the process 
 
 <p align="center">
-  <img width="1048" height="209" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Report.png">
+  <img width="1048" height="189" src="https://github.com/AButton90/Attachment_Tool/blob/main/images/Att_Tool_Report.png">
 </p>
 
 
